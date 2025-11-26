@@ -39,7 +39,7 @@ export interface StatItem {
 
 export interface SlideData {
   id: string;
-  type: 'title' | 'summary' | 'list' | 'deep-dive' | 'grid' | 'action' | 'quote' | 'cards' | 'interactive-timeline';
+  type: 'title' | 'summary' | 'list' | 'deep-dive' | 'grid' | 'action' | 'quote' | 'cards' | 'interactive-timeline' | 'author';
   era: Era;
   title: string;
   subtitle?: string;
@@ -50,6 +50,12 @@ export interface SlideData {
   actions?: ActionItem[];
   timelineItems?: TimelineItem[];
   opportunities?: { title: string; timeline: string; desc: string; why: string; who: string }[];
+  author?: {
+    name: string;
+    role: string;
+    company: string;
+    linkedin: string;
+  };
   content?: {
     left: { title: string; list: string[] };
     right: { title: string; list: string[] };

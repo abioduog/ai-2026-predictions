@@ -1,11 +1,11 @@
 import React from 'react';
 import { SlideData } from './types';
-import { 
-  Zap, 
-  Layers, 
-  Globe, 
-  Cpu, 
-  TrendingUp, 
+import {
+  Zap,
+  Layers,
+  Globe,
+  Cpu,
+  TrendingUp,
   ShieldCheck,
   CalendarRange
 } from 'lucide-react';
@@ -62,60 +62,60 @@ export const SLIDES: SlideData[] = [
     title: 'Strategic Horizon Map',
     subtitle: 'Interactive view of all 43 predictions by theme and duration',
     timelineItems: [
-        // WORK & COMPANIES
-        { id: '#1', title: 'SaaS ↔ Agents Merge', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Work', description: 'Every serious SaaS ships "agents" by 2026. Old-school SaaS gets acquired.' },
-        { id: '#4', title: 'Micro-companies Explode', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Work', description: 'Thousands of 1–3 person AI shops become normal.' },
-        { id: '#12', title: 'Agent-run Media Companies', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Work', description: '"1 human + 10 agents" newsrooms/YouTube networks show up quickly.' },
-        { id: '#15', title: 'Prediction Markets > User Research', startYear: 2026, endYear: 2028, horizon: 'Near-term', theme: 'Work', description: 'Big product orgs simulate users with AI personas before writing code.' },
-        { id: '#16', title: 'Disposable Software', startYear: 2026, endYear: 2028, horizon: 'Near-term', theme: 'Work', description: 'Tools like ChatGPT/Gemini auto-generate micro-apps for tiny tasks.' },
-        { id: '#17', title: 'Vertical AI beats Horizontal SaaS', startYear: 2026, endYear: 2029, horizon: 'Mid-term', theme: 'Work', description: 'Niche agents systematically outperform HubSpot/Salesforce in specific slices.' },
-        { id: '#18', title: 'Niche-as-a-Service Communities', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Work', description: 'Paid, AI-moderated micro-communities become a real subscription segment.' },
-        { id: '#19', title: 'AI-native Real-time Retail', startYear: 2027, endYear: 2030, horizon: 'Mid-term', theme: 'Work', description: 'One retailer closes the loop from live demand → design → production → ads.' },
-        { id: '#20', title: 'Email Dies Internally', startYear: 2026, endYear: 2029, horizon: 'Mid-term', theme: 'Work', description: 'Internal comms = agents + chat. Email becomes "external only".' },
-        { id: '#21', title: 'Human Support = Luxury', startYear: 2026, endYear: 2030, horizon: 'Mid-term', theme: 'Work', description: '"Talk to a human" becomes a paid tier add-on.' },
-        { id: '#23', title: 'AI as Emotion CRM', startYear: 2026, endYear: 2029, horizon: 'Mid-term', theme: 'Work', description: 'Customer segmentation by emotional signatures, not just demography.' },
-        { id: '#24', title: 'Uni Drops Classic CS Degree', startYear: 2028, endYear: 2032, horizon: 'Long-term', theme: 'Work', description: 'Flagship schools rebrand CS to "Agent Systems / Model Engineering".' },
-        { id: '#28', title: 'VC Splits Bits vs Atoms', startYear: 2025, endYear: 2028, horizon: 'Near-term', theme: 'Work', description: 'Explicit narratives around "bits fund" vs "atoms fund" (robotics/energy/biotech).' },
-        { id: '#30', title: 'Sovereign AI Trade War', startYear: 2027, endYear: '2031+', horizon: 'Mid-term', theme: 'Infra', description: 'True "AI trade war" language, bans on export/use of certain models.' }, // Categorized as Work/Infra overlap, putting in Infra for balance or Work? Prompt put it in Infra section.
-        { id: '#31', title: 'Blue-collar Wage Boom', startYear: 2025, endYear: 2030, horizon: 'Mid-term', theme: 'Work', description: 'Automation hammers mid-office; electricians/plumbers/HVAC become premium.' },
-        { id: '#36', title: 'Wealth via Mispriced AI Assets', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Work', description: 'Buying what markets underprice because of AI shifts.' },
-        { id: '#41', title: 'Job Unbundling', startYear: 2025, endYear: 2030, horizon: 'Mid-term', theme: 'Work', description: 'Fewer 9–5s, more outcome-based retainers + micro-businesses.' },
+      // WORK & COMPANIES
+      { id: '#1', title: 'SaaS ↔ Agents Merge', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Work', description: 'Every serious SaaS ships "agents" by 2026. Old-school SaaS gets acquired.' },
+      { id: '#4', title: 'Micro-companies Explode', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Work', description: 'Thousands of 1–3 person AI shops become normal.' },
+      { id: '#12', title: 'Agent-run Media Companies', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Work', description: '"1 human + 10 agents" newsrooms/YouTube networks show up quickly.' },
+      { id: '#15', title: 'Prediction Markets > User Research', startYear: 2026, endYear: 2028, horizon: 'Near-term', theme: 'Work', description: 'Big product orgs simulate users with AI personas before writing code.' },
+      { id: '#16', title: 'Disposable Software', startYear: 2026, endYear: 2028, horizon: 'Near-term', theme: 'Work', description: 'Tools like ChatGPT/Gemini auto-generate micro-apps for tiny tasks.' },
+      { id: '#17', title: 'Vertical AI beats Horizontal SaaS', startYear: 2026, endYear: 2029, horizon: 'Mid-term', theme: 'Work', description: 'Niche agents systematically outperform HubSpot/Salesforce in specific slices.' },
+      { id: '#18', title: 'Niche-as-a-Service Communities', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Work', description: 'Paid, AI-moderated micro-communities become a real subscription segment.' },
+      { id: '#19', title: 'AI-native Real-time Retail', startYear: 2027, endYear: 2030, horizon: 'Mid-term', theme: 'Work', description: 'One retailer closes the loop from live demand → design → production → ads.' },
+      { id: '#20', title: 'Email Dies Internally', startYear: 2026, endYear: 2029, horizon: 'Mid-term', theme: 'Work', description: 'Internal comms = agents + chat. Email becomes "external only".' },
+      { id: '#21', title: 'Human Support = Luxury', startYear: 2026, endYear: 2030, horizon: 'Mid-term', theme: 'Work', description: '"Talk to a human" becomes a paid tier add-on.' },
+      { id: '#23', title: 'AI as Emotion CRM', startYear: 2026, endYear: 2029, horizon: 'Mid-term', theme: 'Work', description: 'Customer segmentation by emotional signatures, not just demography.' },
+      { id: '#24', title: 'Uni Drops Classic CS Degree', startYear: 2028, endYear: 2032, horizon: 'Long-term', theme: 'Work', description: 'Flagship schools rebrand CS to "Agent Systems / Model Engineering".' },
+      { id: '#28', title: 'VC Splits Bits vs Atoms', startYear: 2025, endYear: 2028, horizon: 'Near-term', theme: 'Work', description: 'Explicit narratives around "bits fund" vs "atoms fund" (robotics/energy/biotech).' },
+      { id: '#30', title: 'Sovereign AI Trade War', startYear: 2027, endYear: '2031+', horizon: 'Mid-term', theme: 'Infra', description: 'True "AI trade war" language, bans on export/use of certain models.' }, // Categorized as Work/Infra overlap, putting in Infra for balance or Work? Prompt put it in Infra section.
+      { id: '#31', title: 'Blue-collar Wage Boom', startYear: 2025, endYear: 2030, horizon: 'Mid-term', theme: 'Work', description: 'Automation hammers mid-office; electricians/plumbers/HVAC become premium.' },
+      { id: '#36', title: 'Wealth via Mispriced AI Assets', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Work', description: 'Buying what markets underprice because of AI shifts.' },
+      { id: '#41', title: 'Job Unbundling', startYear: 2025, endYear: 2030, horizon: 'Mid-term', theme: 'Work', description: 'Fewer 9–5s, more outcome-based retainers + micro-businesses.' },
 
-        // CONSUMER, MEDIA & CULTURE
-        { id: '#3', title: 'Infinite-context Entertainment', startYear: 2027, endYear: 2029, horizon: 'Mid-term', theme: 'Consumer', description: 'Netflix-style "continue your own version of a cancelled show".' },
-        { id: '#9', title: 'Hardware Comeback', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Consumer', description: 'AI-first hardware (pins/earbuds) normalizes; smartphone decline visible.' },
-        { id: '#10', title: 'Model-powered Internet', startYear: 2027, endYear: 2030, horizon: 'Mid-term', theme: 'Consumer', description: 'Users spend time "inside" ChatGPT/Gemini spaces, not raw web pages.' },
-        { id: '#11', title: 'Personalized Education Unbundles Uni', startYear: 2027, endYear: 2030, horizon: 'Mid-term', theme: 'Consumer', description: 'AI tutors outperform lectures; uni value shifts to credential + network.' },
-        { id: '#32', title: 'Human-premium Airbnb', startYear: 2026, endYear: 2028, horizon: 'Near-term', theme: 'Consumer', description: 'Listings charging 2–3x for human interaction, tours, personal cooking.' },
-        { id: '#33', title: 'Fake-rich Economy Collapses', startYear: 2026, endYear: 2030, horizon: 'Mid-term', theme: 'Consumer', description: 'IG flexing loses power; in-person + hard assets matter more.' },
-        { id: '#34', title: 'Trust Premium Explodes', startYear: 2025, endYear: 2028, horizon: 'Near-term', theme: 'Consumer', description: '"Certified non-AI / verified human-made" commands steep premium.' },
-        { id: '#37', title: 'AI-first Therapy', startYear: 2027, endYear: '2031+', horizon: 'Mid-term', theme: 'Consumer', description: 'Insurers require AI-CBT first. Many users prefer it.' },
-        { id: '#38', title: 'Authentic Influencer Badges', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Consumer', description: 'New "human-generated" badges; content provenance becomes a hook.' },
-        { id: '#39', title: 'Analog Status as Flex', startYear: 2026, endYear: 2030, horizon: 'Mid-term', theme: 'Consumer', description: 'Film, handwriting, acoustic instruments as high-status signals.' },
-        { id: '#40', title: 'AI Copycat Economy', startYear: 2025, endYear: 2028, horizon: 'Near-term', theme: 'Consumer', description: 'Cloning is trivial; edge shifts to orchestration, timing, community.' },
-        { id: '#42', title: '"AI-free" as New Organic', startYear: 2026, endYear: 2030, horizon: 'Mid-term', theme: 'Consumer', description: 'Labels like "AI-free" or "human-crafted" become mainstream.' },
-        { id: '#43', title: 'Voice AI Post-Smartphone', startYear: 2026, endYear: 2030, horizon: 'Mid-term', theme: 'Consumer', description: 'Voice-first UX makes typing feel like dial-up.' },
+      // CONSUMER, MEDIA & CULTURE
+      { id: '#3', title: 'Infinite-context Entertainment', startYear: 2027, endYear: 2029, horizon: 'Mid-term', theme: 'Consumer', description: 'Netflix-style "continue your own version of a cancelled show".' },
+      { id: '#9', title: 'Hardware Comeback', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Consumer', description: 'AI-first hardware (pins/earbuds) normalizes; smartphone decline visible.' },
+      { id: '#10', title: 'Model-powered Internet', startYear: 2027, endYear: 2030, horizon: 'Mid-term', theme: 'Consumer', description: 'Users spend time "inside" ChatGPT/Gemini spaces, not raw web pages.' },
+      { id: '#11', title: 'Personalized Education Unbundles Uni', startYear: 2027, endYear: 2030, horizon: 'Mid-term', theme: 'Consumer', description: 'AI tutors outperform lectures; uni value shifts to credential + network.' },
+      { id: '#32', title: 'Human-premium Airbnb', startYear: 2026, endYear: 2028, horizon: 'Near-term', theme: 'Consumer', description: 'Listings charging 2–3x for human interaction, tours, personal cooking.' },
+      { id: '#33', title: 'Fake-rich Economy Collapses', startYear: 2026, endYear: 2030, horizon: 'Mid-term', theme: 'Consumer', description: 'IG flexing loses power; in-person + hard assets matter more.' },
+      { id: '#34', title: 'Trust Premium Explodes', startYear: 2025, endYear: 2028, horizon: 'Near-term', theme: 'Consumer', description: '"Certified non-AI / verified human-made" commands steep premium.' },
+      { id: '#37', title: 'AI-first Therapy', startYear: 2027, endYear: '2031+', horizon: 'Mid-term', theme: 'Consumer', description: 'Insurers require AI-CBT first. Many users prefer it.' },
+      { id: '#38', title: 'Authentic Influencer Badges', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Consumer', description: 'New "human-generated" badges; content provenance becomes a hook.' },
+      { id: '#39', title: 'Analog Status as Flex', startYear: 2026, endYear: 2030, horizon: 'Mid-term', theme: 'Consumer', description: 'Film, handwriting, acoustic instruments as high-status signals.' },
+      { id: '#40', title: 'AI Copycat Economy', startYear: 2025, endYear: 2028, horizon: 'Near-term', theme: 'Consumer', description: 'Cloning is trivial; edge shifts to orchestration, timing, community.' },
+      { id: '#42', title: '"AI-free" as New Organic', startYear: 2026, endYear: 2030, horizon: 'Mid-term', theme: 'Consumer', description: 'Labels like "AI-free" or "human-crafted" become mainstream.' },
+      { id: '#43', title: 'Voice AI Post-Smartphone', startYear: 2026, endYear: 2030, horizon: 'Mid-term', theme: 'Consumer', description: 'Voice-first UX makes typing feel like dial-up.' },
 
-        // INFRA, GOVERNANCE & GEOPOLITICS
-        { id: '#6', title: 'Agent Wallets & Machine Economy', startYear: 2026, endYear: 2030, horizon: 'Mid-term', theme: 'Infra', description: 'On-chain agents paying each other emerges early; surpasses human TX 2029+.' },
-        { id: '#7', title: 'Invite-only Web', startYear: 2026, endYear: 2028, horizon: 'Near-term', theme: 'Infra', description: 'Gated "real human" networks to escape bot-flooded feeds.' },
-        { id: '#13', title: 'Big Hack → Local LLMs', startYear: 2026, endYear: 2028, horizon: 'Mid-term', theme: 'Infra', description: 'One scary incident makes on-device models default for sensitive use.' },
-        { id: '#14', title: 'Sovereign Compute Credits', startYear: 2027, endYear: '2031+', horizon: 'Mid-term', theme: 'Infra', description: 'Formal "compute allocations" similar to spectrum/fx controls.' },
-        { id: '#22', title: 'Agent-to-Agent Scam Panic', startYear: 2026, endYear: 2027, horizon: 'Near-term', theme: 'Infra', description: 'Bots scam each other; triggers hearings and new rules.' },
-        { id: '#25', title: 'Data Poisoning Products', startYear: 2026, endYear: 2028, horizon: 'Near-term', theme: 'Infra', description: 'Services that systematically pollute your data trails.' },
-        { id: '#27', title: 'Return to Human Social Graphs', startYear: 2026, endYear: 2029, horizon: 'Mid-term', theme: 'Infra', description: 'Algorithm defaults to "trusted human graph" to combat content spam.' },
-        // #30 moved to Work list as it was there in prompt table, though Theme is Infra/Geo. I'll leave it in Work as per first list, or duplicate? The prompt has it in Infra table. Let's put it in Infra here for the filter.
-        // Re-adding #30 properly to Infra for the filter logic
-        // Note: #30 was in my Work list above, I will move it here for better thematic grouping.
-        // Actually, let's keep it in both or just Infra. Infra makes more sense.
-        // Removing from Work above (commented out conceptually) and adding here.
-        // Wait, I put it in the list above. I will ensure it shows up correctly.
-        { id: '#35', title: 'Legacy Web as Premium Dataset', startYear: 2027, endYear: '2031+', horizon: 'Long-term', theme: 'Infra', description: 'Pre-2023 internet licensed as premium training data.' },
-        
-        // TOOLS (Mapped to Infra or Work? Prompt had separate Tools table. Let's map to Work or Infra)
-        { id: '#2', title: 'Google Crushes; OpenAI "Social"', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Infra', description: 'Google stacking infra; OpenAI exploring social layer to defend share.' },
-        { id: '#8', title: 'Search → Answer Synthesis', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Infra', description: '"Read 50 pages, give answer" default. Classic SEO erodes.' },
-        { id: '#26', title: 'Infinite Apps inside Chat', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Infra', description: 'App Stores feel clunky vs auto-generated micro-apps in-chat.' },
+      // INFRA, GOVERNANCE & GEOPOLITICS
+      { id: '#6', title: 'Agent Wallets & Machine Economy', startYear: 2026, endYear: 2030, horizon: 'Mid-term', theme: 'Infra', description: 'On-chain agents paying each other emerges early; surpasses human TX 2029+.' },
+      { id: '#7', title: 'Invite-only Web', startYear: 2026, endYear: 2028, horizon: 'Near-term', theme: 'Infra', description: 'Gated "real human" networks to escape bot-flooded feeds.' },
+      { id: '#13', title: 'Big Hack → Local LLMs', startYear: 2026, endYear: 2028, horizon: 'Mid-term', theme: 'Infra', description: 'One scary incident makes on-device models default for sensitive use.' },
+      { id: '#14', title: 'Sovereign Compute Credits', startYear: 2027, endYear: '2031+', horizon: 'Mid-term', theme: 'Infra', description: 'Formal "compute allocations" similar to spectrum/fx controls.' },
+      { id: '#22', title: 'Agent-to-Agent Scam Panic', startYear: 2026, endYear: 2027, horizon: 'Near-term', theme: 'Infra', description: 'Bots scam each other; triggers hearings and new rules.' },
+      { id: '#25', title: 'Data Poisoning Products', startYear: 2026, endYear: 2028, horizon: 'Near-term', theme: 'Infra', description: 'Services that systematically pollute your data trails.' },
+      { id: '#27', title: 'Return to Human Social Graphs', startYear: 2026, endYear: 2029, horizon: 'Mid-term', theme: 'Infra', description: 'Algorithm defaults to "trusted human graph" to combat content spam.' },
+      // #30 moved to Work list as it was there in prompt table, though Theme is Infra/Geo. I'll leave it in Work as per first list, or duplicate? The prompt has it in Infra table. Let's put it in Infra here for the filter.
+      // Re-adding #30 properly to Infra for the filter logic
+      // Note: #30 was in my Work list above, I will move it here for better thematic grouping.
+      // Actually, let's keep it in both or just Infra. Infra makes more sense.
+      // Removing from Work above (commented out conceptually) and adding here.
+      // Wait, I put it in the list above. I will ensure it shows up correctly.
+      { id: '#35', title: 'Legacy Web as Premium Dataset', startYear: 2027, endYear: '2031+', horizon: 'Long-term', theme: 'Infra', description: 'Pre-2023 internet licensed as premium training data.' },
+
+      // TOOLS (Mapped to Infra or Work? Prompt had separate Tools table. Let's map to Work or Infra)
+      { id: '#2', title: 'Google Crushes; OpenAI "Social"', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Infra', description: 'Google stacking infra; OpenAI exploring social layer to defend share.' },
+      { id: '#8', title: 'Search → Answer Synthesis', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Infra', description: '"Read 50 pages, give answer" default. Classic SEO erodes.' },
+      { id: '#26', title: 'Infinite Apps inside Chat', startYear: 2025, endYear: 2027, horizon: 'Near-term', theme: 'Infra', description: 'App Stores feel clunky vs auto-generated micro-apps in-chat.' },
     ]
   },
   // Slide 3 (Old 3): 2026 Overview
@@ -142,13 +142,13 @@ export const SLIDES: SlideData[] = [
     era: '2026',
     title: '2026 Deep Dive: Product & Platform',
     predictions: [
-      { 
-        title: 'SaaS + Agents Merge', 
+      {
+        title: 'SaaS + Agents Merge',
         description: 'Every major SaaS product (Salesforce, HubSpot, Notion, Linear) ships an agent layer. Customers expect natural language interfaces by Q4 2026.',
         impact: 'Products without agents feel outdated. Competitive moats shift from features to agent quality. UI design de-emphasizes in favor of conversation design.'
       },
-      { 
-        title: 'Search → Answer Synthesis', 
+      {
+        title: 'Search → Answer Synthesis',
         description: 'Google AI Overviews become the default. Traditional 10 blue links decline by 30%. SEO professionals pivot to optimizing for LLM citations.',
         impact: 'Content marketing shifts from "ranking on Google" to "being cited by AI models." Publishers negotiate citation fees. Perplexity, ChatGPT, and Claude eat search volume.'
       }
@@ -161,18 +161,18 @@ export const SLIDES: SlideData[] = [
     era: '2026',
     title: '2026 Deep Dive: Work & Support',
     predictions: [
-      { 
-        title: 'Email Dies Internally', 
+      {
+        title: 'Email Dies Internally',
         description: 'Knowledge workers abandon email for internal comms. Slack, Discord, and Teams integrate agents for summarization, task routing, and decision-making.',
         impact: 'Email becomes archival, legal-only. Async work happens in threaded channels with AI assistants. Inbox zero becomes obsolete.'
       },
-      { 
-        title: 'Human Support = Luxury Tier', 
+      {
+        title: 'Human Support = Luxury Tier',
         description: '99% of customer support becomes AI-first. Premium tiers offer "talk to a human" as upsell feature. It works—customers pay.',
         impact: 'Support costs collapse. Companies redirect savings to product dev or keep margins. Human agents become specialists handling edge cases only.'
       },
-      { 
-        title: 'Job Unbundling Accelerates', 
+      {
+        title: 'Job Unbundling Accelerates',
         description: '30-40% of full-time roles fragment into outcome-based retainers. AI augments individual productivity so one person can handle multiple part-time contracts.',
         impact: 'Companies hire specialists for outcomes, not hours. Freelance platforms explode. Employee benefits become unbundled services.'
       }
@@ -185,13 +185,13 @@ export const SLIDES: SlideData[] = [
     era: '2026',
     title: '2026 Deep Dive: Health & Culture',
     predictions: [
-      { 
-        title: 'Therapy AI-First', 
+      {
+        title: 'Therapy AI-First',
         description: 'Insurance companies require 6 weeks of AI-powered CBT before approving human therapist sessions. Adoption rates surprise everyone—patients report real benefits.',
         impact: 'Mental health startups pivot to AI-first models. Human therapists become specialists for complex cases. Therapy becomes accessible to millions who couldn\'t afford it before.'
       },
-      { 
-        title: '"Authentic" Influencer Badges', 
+      {
+        title: '"Authentic" Influencer Badges',
         description: 'Platforms (Instagram, YouTube, LinkedIn) introduce verified "real human" badges. Trust becomes the primary differentiator for creators.',
         impact: 'Brands pay premiums for verified human creators. AI-generated content floods the zone, making authenticity scarce. Personal brands pivot to "proof of humanity" as core value prop.'
       }
@@ -515,6 +515,19 @@ export const SLIDES: SlideData[] = [
     era: 'Closing',
     title: 'Final Thought',
     highlight: 'The winners are already visible—they\'re building the 2028 future in 2026'
+  },
+  // Slide 21: Author
+  {
+    id: 'slide-author',
+    type: 'author',
+    era: 'Closing',
+    title: 'About the Author',
+    author: {
+      name: 'Abiodun Ogunlabi',
+      role: 'CEO',
+      company: '3way Communications Limited',
+      linkedin: 'https://www.linkedin.com/in/abiodun-ogunlabi-a009496/'
+    }
   }
 ];
 
@@ -541,13 +554,13 @@ export const getProbColor = (prob?: string) => {
 };
 
 export const getEraIcon = (era: string) => {
-    switch (era) {
-        case '2026': return <Zap className="w-5 h-5" />;
-        case '2027-2028': return <Layers className="w-5 h-5" />;
-        case '2029-2030': return <Globe className="w-5 h-5" />;
-        case '2031+': return <Cpu className="w-5 h-5" />;
-        case 'Nigeria': return <TrendingUp className="w-5 h-5" />;
-        case 'Timeline': return <CalendarRange className="w-5 h-5" />;
-        default: return <ShieldCheck className="w-5 h-5" />;
-    }
+  switch (era) {
+    case '2026': return <Zap className="w-5 h-5" />;
+    case '2027-2028': return <Layers className="w-5 h-5" />;
+    case '2029-2030': return <Globe className="w-5 h-5" />;
+    case '2031+': return <Cpu className="w-5 h-5" />;
+    case 'Nigeria': return <TrendingUp className="w-5 h-5" />;
+    case 'Timeline': return <CalendarRange className="w-5 h-5" />;
+    default: return <ShieldCheck className="w-5 h-5" />;
+  }
 }
